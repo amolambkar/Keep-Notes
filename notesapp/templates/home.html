@@ -1,13 +1,18 @@
 {% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
   %}
   <h1 align="center">Notes</h1>
+  <!-- <center><p>Update note by clicking on it</p></center> -->
   <ul class="list-group list-group-flush" id="notes">
     {% for note in user.notes %}
+
     <li class="list-group-item">
-      {{ note.data }}
+      <form id="note-data-form" action="/update-note/{{note.id}}" method="POST">
+      <input type="text" id="note-data"  name="note-data" onmouseleave="updateNote()" style="border-width:0px; border:none;width:80%;" value="{{note.data }}"/>
+      </form>
       <button type="button" class="close" onClick="deleteNote({{ note.id }})">
         <span aria-hidden="true">&times;</span>
       </button>
+
     </li>
     {% endfor %}
   </ul>
