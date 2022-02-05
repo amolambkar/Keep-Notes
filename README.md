@@ -1,9 +1,9 @@
 # Keep Notes
 
-## Notes Keeping application for multiple users using authentication
+## Notes saving application for multiple users using authentication
 <hr/>
 
-[Deployed Application](https://keep-notes-amol-ambkar.herokuapp.com/)
+[![IMAGE_ALT](https://i9.ytimg.com/vi/f-ktXkHlYQk/mq2.jpg?sqp=COje-o8G&rs=AOn4CLDGt4PVak96ZY2lUT_4-M00pfitjA)](https://youtu.be/f-ktXkHlYQk)
 
 ### Functionalities
 
